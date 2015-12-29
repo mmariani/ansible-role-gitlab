@@ -23,3 +23,5 @@ gitlab_rails['ldap_base'] = '{{ gitlab_ldap_base }}'
 
 # To change other settings, see:
 # https://gitlab.com/gitlab-org/omnibus-gitlab/blob/master/README.md#changing-gitlab-yml-settings
+
+postgresql['shared_buffers'] = '16MB'
